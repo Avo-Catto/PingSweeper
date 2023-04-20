@@ -21,8 +21,6 @@ class colors:
         self.BOLD = '\033[01m'
         self.RED = '\033[31m'
         self.GREEN = '\033[32m'
-        self.ORANGE = '\033[33m' # not used
-        self.BLUE = '\033[34m' # not used
         self.CYAN = '\033[36m'
     
     def __fix_colors_windows(self) -> None:
